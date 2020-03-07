@@ -32,6 +32,12 @@ namespace SchoolLibrary
         }
       }
     }
+
+    public School()
+    {
+      Name = "Untitled School";
+      PhoneNumber = "555-1234";
+    }
   }
 }
 
