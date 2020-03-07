@@ -1,19 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SchoolLibrary 
 {
-  class School 
+  public class School 
   {
-    string Name { get; set; } // This is called an auto property. Basically defines getter and setter for that property automatically.
-    string Address { get; set; }
-    string City { get; set; }
-    string State { get; set; }
-    string Zip { get; set; }
-    string PhoneNumber { get; set; }
+    public string Name { get; set; } // This is called an auto property. Basically defines getter and setter for that property automatically.
+    public string Address { get; set; }
+    public string City { get; set; }
+    public string State { get; set; }
+    public string Zip { get; set; }
+    public string PhoneNumber { get; set; }
 
-    string _twitterAddress;
+    private string _twitterAddress;
     string TwitterAddress 
     {
       // Make sure that twitter address starts with @
@@ -34,3 +32,4 @@ namespace SchoolLibrary
     }
   }
 }
+
