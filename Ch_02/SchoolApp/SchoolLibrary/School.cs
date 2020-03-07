@@ -4,6 +4,7 @@ namespace SchoolLibrary
 {
   public class School 
   {
+    // Public modifiers expose the member to child classes and instance of the class.
     public string Name { get; set; } // This is called an auto property. Basically defines getter and setter for that property automatically.
     public string Address { get; set; }
     public string City { get; set; }
@@ -11,6 +12,7 @@ namespace SchoolLibrary
     public string Zip { get; set; }
     public string PhoneNumber { get; set; }
 
+    // Private members cannot be acessed or modified outside from the base class.
     private string _twitterAddress;
     string TwitterAddress 
     {
