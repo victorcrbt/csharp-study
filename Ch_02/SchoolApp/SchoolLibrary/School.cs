@@ -33,11 +33,44 @@ namespace SchoolLibrary
       }
     }
 
+    // To define a class constructor, we create a public method with the exact same name of the class.
     public School()
     {
       Name = "Untitled School";
       PhoneNumber = "555-1234";
     }
+
+    /*
+     * This is a overload for the constructor.
+     * 
+     * We define another constructor with the same name that different arguments (number of arguments or
+     * types) so we can deal with the arguments in the proper way.
+     */
+    public School(string schoolName, string schoolPhoneNumber)
+    {
+      Name = schoolName;
+      PhoneNumber = schoolPhoneNumber;
+    }
+
+    /*
+     * Define methods works about the same way as constructores, with the difference that if the method has a return,
+     * pass inform the return type right after the method's name.
+     */
+    public float AverageThreeScores(float score1, float score2, float score3)
+    {
+      float average = (score1 + score2 + score3) / 3;
+
+      return average;
+    }
+
+    // Like in constructors, this is an overload for the method. Works the same way as constructors.
+    public int AverageThreeScores(int score1, int score2, int score3)
+    {
+      int average = (score1 + score2 + score3) / 3;
+
+      return average;
+    }
   }
 }
+
 
