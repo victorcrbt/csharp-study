@@ -63,6 +63,7 @@ namespace SchoolLibrary
       return average;
     }
 
+
     // Like in constructors, this is an overload for the method. Works the same way as constructors.
     public int AverageThreeScores(int score1, int score2, int score3)
     {
@@ -70,6 +71,14 @@ namespace SchoolLibrary
 
       return average;
     }
+
+    /*
+     *  This is call bodied expression.
+     *  
+     *  We write our code like an arrow function of JavaScript, but can only write the return, not the
+     *  function block.
+     */
+    public double AverageThreeScores(double score1, double score2, double score3) => (score1 + score2 + score3) / 3;
   }
 }
 
