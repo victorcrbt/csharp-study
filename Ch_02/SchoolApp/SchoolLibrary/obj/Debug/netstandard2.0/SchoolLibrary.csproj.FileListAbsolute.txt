@@ -1,8 +1,0 @@
-C:\projetos\cscourse\Ch_02\SchoolApp\SchoolLibrary\obj\Debug\netstandard2.0\SchoolLibrary.csprojAssemblyReference.cache
-C:\projetos\cscourse\Ch_02\SchoolApp\SchoolLibrary\obj\Debug\netstandard2.0\SchoolLibrary.AssemblyInfoInputs.cache
-C:\projetos\cscourse\Ch_02\SchoolApp\SchoolLibrary\obj\Debug\netstandard2.0\SchoolLibrary.AssemblyInfo.cs
-C:\projetos\cscourse\Ch_02\SchoolApp\SchoolLibrary\bin\Debug\netstandard2.0\SchoolLibrary.deps.json
-C:\projetos\cscourse\Ch_02\SchoolApp\SchoolLibrary\bin\Debug\netstandard2.0\SchoolLibrary.dll
-C:\projetos\cscourse\Ch_02\SchoolApp\SchoolLibrary\bin\Debug\netstandard2.0\SchoolLibrary.pdb
-C:\projetos\cscourse\Ch_02\SchoolApp\SchoolLibrary\obj\Debug\netstandard2.0\SchoolLibrary.dll
-C:\projetos\cscourse\Ch_02\SchoolApp\SchoolLibrary\obj\Debug\netstandard2.0\SchoolLibrary.pdb
