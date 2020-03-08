@@ -37,9 +37,10 @@ namespace SchoolFormsApp
         MessageBox.Show(error.Message, "Validation Failed!");
       }
 
+
     }
 
-    private void button1_Click(object sender, EventArgs e)
+    private void resetBtn_Click(object sender, EventArgs e)
     {
       fieldName.Text = "";
       fieldAddress.Text = "";
@@ -48,6 +49,26 @@ namespace SchoolFormsApp
       fieldZip.Text = "";
       fieldPhone.Text = "";
       fieldTwitter.Text = "";
+    }
+
+    private void btnTestTeacher_Click(object sender, EventArgs e)
+    {
+      Teacher teacher = new Teacher();
+      float gp = teacher.ComputeGradeAverage();
+
+      string gradeAverage = string.Format("The grade average is {0}", gp);
+
+      MessageBox.Show(gradeAverage, "Teacher Grade");
+    }
+
+    private void btnTestStudent_Click(object sender, EventArgs e)
+    {
+      Student student = new Student();
+      float gp = student.ComputeGradeAverage();
+
+      string gradeAverage = string.Format("The grade average is {0}", gp);
+
+      MessageBox.Show(gradeAverage, "Student Grade");
     }
   }
 }

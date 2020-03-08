@@ -13,5 +13,12 @@ namespace SchoolLibrary
     public string FirstName;
     public string LastName;
     public string Email;
+
+    /**
+     * A abstract method is a method without implementation but thar forces
+     * every children class to implement this method, otherwise, the code
+     * will not compile.
+     */
+    public abstract float ComputeGradeAverage();
   }
 }

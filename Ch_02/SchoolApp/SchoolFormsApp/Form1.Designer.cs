@@ -43,7 +43,9 @@
       this.fieldAddress = new System.Windows.Forms.TextBox();
       this.fieldName = new System.Windows.Forms.TextBox();
       this.submitBtn = new System.Windows.Forms.Button();
-      this.button1 = new System.Windows.Forms.Button();
+      this.resetBtn = new System.Windows.Forms.Button();
+      this.btnTestTeacher = new System.Windows.Forms.Button();
+      this.btnTestStudent = new System.Windows.Forms.Button();
       this.SuspendLayout();
       // 
       // labelName
@@ -168,22 +170,44 @@
       this.submitBtn.UseVisualStyleBackColor = true;
       this.submitBtn.Click += new System.EventHandler(this.submitBtn_Click);
       // 
-      // button1
+      // resetBtn
       // 
-      this.button1.Location = new System.Drawing.Point(52, 297);
-      this.button1.Name = "button1";
-      this.button1.Size = new System.Drawing.Size(121, 23);
-      this.button1.TabIndex = 15;
-      this.button1.Text = "Reset Form";
-      this.button1.UseVisualStyleBackColor = true;
-      this.button1.Click += new System.EventHandler(this.button1_Click);
+      this.resetBtn.Location = new System.Drawing.Point(52, 297);
+      this.resetBtn.Name = "resetBtn";
+      this.resetBtn.Size = new System.Drawing.Size(121, 23);
+      this.resetBtn.TabIndex = 15;
+      this.resetBtn.Text = "Reset Form";
+      this.resetBtn.UseVisualStyleBackColor = true;
+      this.resetBtn.Click += new System.EventHandler(this.resetBtn_Click);
+      // 
+      // btnTestTeacher
+      // 
+      this.btnTestTeacher.Location = new System.Drawing.Point(52, 349);
+      this.btnTestTeacher.Name = "btnTestTeacher";
+      this.btnTestTeacher.Size = new System.Drawing.Size(121, 23);
+      this.btnTestTeacher.TabIndex = 16;
+      this.btnTestTeacher.Text = "Test Teacher";
+      this.btnTestTeacher.UseVisualStyleBackColor = true;
+      this.btnTestTeacher.Click += new System.EventHandler(this.btnTestTeacher_Click);
+      // 
+      // btnTestStudent
+      // 
+      this.btnTestStudent.Location = new System.Drawing.Point(52, 378);
+      this.btnTestStudent.Name = "btnTestStudent";
+      this.btnTestStudent.Size = new System.Drawing.Size(121, 23);
+      this.btnTestStudent.TabIndex = 16;
+      this.btnTestStudent.Text = "Test Student";
+      this.btnTestStudent.UseVisualStyleBackColor = true;
+      this.btnTestStudent.Click += new System.EventHandler(this.btnTestStudent_Click);
       // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(234, 373);
-      this.Controls.Add(this.button1);
+      this.ClientSize = new System.Drawing.Size(234, 508);
+      this.Controls.Add(this.btnTestStudent);
+      this.Controls.Add(this.btnTestTeacher);
+      this.Controls.Add(this.resetBtn);
       this.Controls.Add(this.submitBtn);
       this.Controls.Add(this.fieldName);
       this.Controls.Add(this.fieldAddress);
@@ -223,7 +247,9 @@
         private System.Windows.Forms.TextBox fieldAddress;
         private System.Windows.Forms.TextBox fieldName;
         private System.Windows.Forms.Button submitBtn;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button resetBtn;
+        private System.Windows.Forms.Button btnTestTeacher;
+        private System.Windows.Forms.Button btnTestStudent;
     }
 }
 
