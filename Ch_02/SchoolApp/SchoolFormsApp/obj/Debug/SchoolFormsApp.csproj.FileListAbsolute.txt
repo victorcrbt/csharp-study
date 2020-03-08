@@ -1,0 +1,12 @@
+C:\projetos\cscourse\Ch_02\SchoolApp\SchoolFormsApp\bin\Debug\SchoolFormsApp.exe.config
+C:\projetos\cscourse\Ch_02\SchoolApp\SchoolFormsApp\bin\Debug\SchoolFormsApp.exe
+C:\projetos\cscourse\Ch_02\SchoolApp\SchoolFormsApp\bin\Debug\SchoolFormsApp.pdb
+C:\projetos\cscourse\Ch_02\SchoolApp\SchoolFormsApp\bin\Debug\SchoolLibrary.dll
+C:\projetos\cscourse\Ch_02\SchoolApp\SchoolFormsApp\bin\Debug\SchoolLibrary.pdb
+C:\projetos\cscourse\Ch_02\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.csprojAssemblyReference.cache
+C:\projetos\cscourse\Ch_02\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.Form1.resources
+C:\projetos\cscourse\Ch_02\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.Properties.Resources.resources
+C:\projetos\cscourse\Ch_02\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.csproj.GenerateResource.cache
+C:\projetos\cscourse\Ch_02\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.csproj.CopyComplete
+C:\projetos\cscourse\Ch_02\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.exe
+C:\projetos\cscourse\Ch_02\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.pdb

@@ -15,7 +15,7 @@ namespace SchoolLibrary
 
     // Private members cannot be acessed or modified outside from the base class.
     private string _twitterAddress;
-    string TwitterAddress 
+    public string TwitterAddress 
     {
       // Make sure that twitter address starts with @
       get { return _twitterAddress; }
@@ -95,12 +95,13 @@ namespace SchoolLibrary
     {
       StringBuilder sb = new StringBuilder();
       sb.AppendLine(this.Name);
-      sb.AppendLine(this.Address); ;
-      sb.AppendLine(this.City);
-      sb.AppendLine(", ");
-      sb.AppendLine(this.State);
-      sb.AppendLine("  ");
+      sb.AppendLine(this.Address);
+      sb.Append(this.City);
+      sb.Append(", ");
+      sb.Append(this.State);
+      sb.Append("  ");
       sb.AppendLine(this.Zip);
+      sb.Append(this._twitterAddress);
 
       return sb.ToString();
     }
