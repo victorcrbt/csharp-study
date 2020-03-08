@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Text;
 
 namespace SchoolLibrary 
 {
-  public class School 
+  public class School
   {
     // Public modifiers expose the member to child classes and instance of the class.
     public string Name { get; set; } // This is called an auto property. Basically defines getter and setter for that property automatically.
@@ -85,6 +86,24 @@ namespace SchoolLibrary
      *  function block.
      */
     public static double AverageThreeScores(double score1, double score2, double score3) => (score1 + score2 + score3) / 3;
+
+    /*
+     * We use the keyword 'override' define a new implementation of a virtual, abstract or override method
+     * from the base class. We cannot override static or non virtual methods.
+     */
+    public override string ToString()
+    {
+      StringBuilder sb = new StringBuilder();
+      sb.AppendLine(this.Name);
+      sb.AppendLine(this.Address); ;
+      sb.AppendLine(this.City);
+      sb.AppendLine(", ");
+      sb.AppendLine(this.State);
+      sb.AppendLine("  ");
+      sb.AppendLine(this.Zip);
+
+      return sb.ToString();
+    }
   }
 }
 
