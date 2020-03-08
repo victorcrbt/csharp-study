@@ -12,7 +12,7 @@ namespace SchoolLibrary
    * just by adding a comma between them. Add more interfaces works
    * the same way.
    */
-  class ScienceExperiment : IScored
+  public class ScienceExperiment : IScored
   {
     public string Hypothesis;
     public string Materials;

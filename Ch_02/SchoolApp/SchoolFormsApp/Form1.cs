@@ -37,7 +37,6 @@ namespace SchoolFormsApp
         MessageBox.Show(error.Message, "Validation Failed!");
       }
 
-
     }
 
     private void resetBtn_Click(object sender, EventArgs e)
