@@ -9,5 +9,12 @@ namespace SchoolLibrary
     public string Title;
     public int MinimumWordCount;
     public string PaperText;
+    public int WordCount {
+       /**
+        * We can then use the extended method as long as it is in the
+        * same namespace.
+        */
+      get { return PaperText.WordCount(); }
+    }
   }
 }
