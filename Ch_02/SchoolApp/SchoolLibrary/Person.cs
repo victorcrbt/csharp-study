@@ -20,5 +20,22 @@ namespace SchoolLibrary
      * will not compile.
      */
     public abstract float ComputeGradeAverage();
+
+    /**
+     * A virtual method is a method that have implementation on the base class
+     * but can be overwriten in any inheriting class with the use of the keyword
+     * 'override'. Only abstract and virtual members can be overwriten.
+     */
+    public virtual string SendMessage(string msg) {
+      var sb = new StringBuilder();
+      var timeStamp = string.Format("Sent on {0:D} at {0:t}.", DateTime.Now);
+
+      sb.AppendLine(timeStamp);
+      sb.AppendLine("");
+      sb.AppendLine(string.Format("Dear {0},", FirstName));
+      sb.AppendLine(msg);
+      
+      return sb.ToString();
+    }
   }
 }

@@ -20,9 +20,21 @@ namespace SchoolLibrary
      * compile, because we would be just creating another method with the same
      * name and not overriding the base class one.
      */
-    public override float ComputeGradeAverage()
-    {
+    public override float ComputeGradeAverage() {
       return 7.12f;
+    }
+
+    /**
+     * Here we override a virtual method. In this case we just augment the base
+     * class method, but it could do something completely different.
+     */
+    public override string SendMessage(string msg) {
+      var originalMsg = base.SendMessage(msg);
+
+      var sb = new StringBuilder(originalMsg);
+      sb.AppendLine("This message is private and confidential.");
+
+      return sb.ToString();
     }
   }
 }
